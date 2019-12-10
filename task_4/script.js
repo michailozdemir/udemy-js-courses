@@ -79,7 +79,7 @@ let appData = {
            console.log('Данные введены неверно!');
         }
 
-        appData.income.forEach(function(item, i) {
+        appData.income.forEach(function(item, i) { 
             alert('Способы дополнительного заработка: ' + (i+1) + ' - ' + item);
         });
     }
