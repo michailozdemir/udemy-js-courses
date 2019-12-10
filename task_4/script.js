@@ -84,7 +84,7 @@ let appData = {
         });
     }
 };
-
+ 
 for (let value in appData) {
     alert("Наша программа включает в себя данные: " + value + " - " + appData[value]);
 }
